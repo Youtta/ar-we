@@ -1,0 +1,165 @@
+.search_section_head {
+  height: 250px;
+  position: relative;
+  // margin-bottom: 40px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  &:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($blue, .4);
+  }
+  .hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white;
+  }
+  #custom_breadcrumb_final {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba($blue, .7);
+    font-size: 14px;
+    .custom_wrapper {
+      width: 100%;
+      margin: 3px auto;
+      .custom_header .custom_site-nav-wrap {
+        padding: 2px 0;
+        overflow: hidden;
+        width: 100%;
+        .custom_nav {
+          display: inline-flex;
+          white-space: nowrap;
+          overflow: hidden;
+          padding-right: 30px;
+          .custom_breadcrumb {
+            padding-right: 5px;
+            a {
+              color: $white;
+            }
+          }
+          .active-page {
+            .custom_sep {
+              .fa {
+                color: $white;
+              }
+            }
+            span {
+              padding-left: 5px;
+              color: $red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.link a {
+  background-color: #1f2a57;
+  padding: 13px 25px;
+  color: #fff;
+  border-radius: 5px;
+  transition: all .6s;
+  font-size: 18px;
+}
+
+.about-description {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  .title {
+    padding-bottom: 50px;
+    color: $red;
+  }
+  .des {
+    padding-top: 20px;
+    .comb {
+      display: flex;
+      padding-bottom: 25px;
+      img {
+        height: 80px;
+        width: 80px;
+      }
+      p {
+        padding-left: 10px;
+        padding-top: 20px;
+      }
+    }
+    .heading {
+      padding-bottom: 40px;
+    }
+    // .text {
+    //   p {
+    //     display: flex;
+    //   }
+    // }
+  }
+  .image {
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}
+
+.abc-section {
+  background-color: rgba($blue, 0.9);
+  h3 {
+    color: $red;
+  }
+  p {
+    padding-top: 10px;
+    color: $white;
+  }
+}
+
+.what-we-offer {
+  .des {
+    padding-bottom: 20px;
+    padding-top: 30px;
+    h3 {
+      color: rgba($blue, 1.0);
+    }
+  }
+  .details {
+    margin-bottom: 20px;
+    padding: 10px;
+    img {
+      background-color: $red;
+      border-radius: 50%;
+      transition: all 0.6s;
+      height: 90px;
+      width: 90px;
+    }
+    h5 {
+      color: rgba($blue, 1.0);
+      padding-top: 10px;
+    }
+    p {
+      color: $black;
+      padding: 0 20px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      /* number of lines to show */
+      -webkit-box-orient: vertical;
+    }
+    &:hover {
+      img {
+        background-color: rgba($blue, 1.0);
+        box-shadow: 0 0 10px 7px rgba($blue, 0.5);
+      }
+      h5 {
+        color: rgba($red, 1.0);
+      }
+    }
+  }
+}

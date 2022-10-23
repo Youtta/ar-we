@@ -1,0 +1,503 @@
+  @media (max-width: 1199px) {
+    .main-slider {
+      header {
+        .item {
+          height: auto;
+        }
+      }
+    }
+    .slider-bottom-text {
+      .des {
+        margin-top: -45px;
+      }
+    }
+    .product-details {
+      .detail-prd-slider {
+        margin-top: -25px;
+        .owl-carousel {
+          .owl-item {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .web-about {
+      .bg-image {
+        background-position: right;
+      }
+    }
+    .subscribe {
+      h2 {
+        padding-top: 10px;
+      }
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .bottom-header {
+      #cssmenu {
+        ul {
+          li {
+            a {
+              padding: 12px 10px;
+              font-size: 14px;
+            }
+            &.has-sub>a::after {
+              right: 0px;
+              width: 5px;
+              height: 5px;
+            }
+            &:hover>ul>li {
+              height: 38px;
+            }
+          }
+        }
+        ul li:hover>ul>li {
+          height: 39px;
+        }
+      }
+      .header-icons {
+        padding-top: 4px !important;
+        padding-bottom: 2px !important;
+        img {
+          height: 80%;
+        }
+        span {
+          font-size: 13px !important;
+          padding-top: 5px;
+        }
+      }
+    }
+    .product-details {
+      margin-top: 40px;
+      .detail-prd-slider {
+        margin-top: 15px;
+      }
+    }
+    .slider-bottom-text {
+      .des {
+        margin-top: -40px;
+      }
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .productDetailPage {
+      .detailsIcon {
+        display: block;
+        .productDetailSize {
+          display: inline-block;
+          width: 49%;
+        }
+      }
+    }
+    header {
+      .sticky {
+        .header-icons {
+          // display: none;
+        }
+      }
+      .top-header {
+        .icons {
+          a {
+            margin-right: 5px !important;
+            .fa {
+              font-size: 14px !important;
+              padding-right: 10px;
+            }
+          }
+        }
+        .header-cnt {
+          .mail,
+          .number {
+            font-size: 14px;
+            padding-top: 10px !important;
+            margin-right: 10px !important;
+            .fa {
+              padding-right: 10px;
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+      }
+      .middle-header {
+        .search-box {
+          width: 40% !important;
+        }
+      }
+      .bottom-header {
+        // #cssmenu,
+        // #cssmenu ul,
+        // #cssmenu ul li,
+        // #cssmenu ul li a,
+        // #cssmenu #menu-button {
+        //   // position: unset;
+        // }
+        .menu {
+          .header-icons {
+            width: 75%;
+            margin: auto;
+            margin-top: 10px;
+            span {
+              padding-top: 2px;
+            }
+          }
+          #cssmenu {
+            #menu-button {
+              // padding-left: 0;
+              display: block;
+              width: 52%;
+              position: relative;
+              li {
+                // position: unset !important;
+              }
+            }
+            >.open {
+              display: block;
+              position: absolute;
+              z-index: 9999;
+              background-color: $blue;
+              width: 100%;
+              max-width: 510px;
+            }
+          }
+        }
+      }
+    }
+    .main-slider {
+      header {
+        &:hover {
+          .owl-prev {
+            left: 35px;
+          }
+          .owl-next {
+            right: 35px;
+          }
+        }
+      }
+    }
+    .slider-bottom-text {
+      .des {
+        margin-top: -33px;
+      }
+    }
+    .products {
+      .prd {
+        .image {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .product-details {
+      height: auto;
+      .detail-prd-slider {
+        .owl-carousel {
+          .owl-item {
+            img {
+              width: auto;
+              margin: auto;
+            }
+          }
+        }
+      }
+    }
+    footer {
+      .footer-bottom {
+        .left {
+          text-align: center;
+        }
+        .right {
+          text-align: center;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 575px) {
+    p {
+      font-size: 12px !important;
+    }
+    header {
+      .top-header {
+        .icons {
+          padding-top: 5px;
+          a {
+            .fa {
+              font-size: 12px !important;
+            }
+          }
+        }
+        .header-cnt {
+          .mail,
+          .number {
+            padding-top: 10px;
+            span {
+              display: none;
+            }
+          }
+          .fa {
+            font-size: 12px !important;
+          }
+        }
+        .languages {
+          .multi_language {
+            .lang-text {
+              font-size: 12px !important;
+            }
+            .lang-flag {
+              width: 15px !important;
+            }
+          }
+        }
+      }
+      .middle-header {
+        .logo {
+          a {
+            img {
+              width: 100%;
+              max-width: 125px;
+            }
+          }
+        }
+        .form-control {
+          height: calc(1.0em + .75rem + 2px);
+        }
+        .btn {
+          padding: 0rem .75rem;
+        }
+      }
+      .bottom-header {
+        .menu {
+          .header-icons {
+            width: 10%;
+            margin-top: 0;
+            span {
+              display: none;
+            }
+            img {
+              height: 60%;
+            }
+          }
+          #cssmenu {
+            // .open {
+            //   width: 100%;
+            //   max-width: 545px;
+            // }
+            #menu-button {
+              width: 27%;
+              padding: 10px;
+              &:before {
+                top: 10px;
+              }
+            }
+            ul {
+              ul {
+                padding-left: 25px !important;
+                ul {
+                  padding-left: 25px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    footer {
+      li {
+        a {
+          font-size: 14px;
+        }
+      }
+      .logo-footer {
+        text-align: center;
+        padding: 20px 0 20px;
+      }
+      .footer-links {
+        h3 {
+          padding: 10px 0 10px;
+          font-size: 19px;
+        }
+      }
+      .line {
+        margin-top: 10px;
+      }
+    }
+    .products {
+      .prd {
+        .image {
+          img {
+            width: auto;
+          }
+        }
+        .des {
+          .title {
+            padding-top: 15px;
+            h4 {
+              font-size: 19px;
+            }
+          }
+        }
+      }
+    }
+    .web-about {
+      margin-top: 10px;
+      .bg-image {
+        background-size: unset;
+        .des {
+          padding: 40px 0 50px;
+          .title h3 {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+    .guide-incontinence {
+      margin: 20px 0 15px;
+      .details {
+        padding-bottom: 5px;
+        h2 {
+          font-size: 22px;
+        }
+      }
+      .prd .des .title h4 {
+        font-size: 19px;
+      }
+    }
+    .subscribe {
+      margin-top: 25px;
+      h2 {
+        font-size: 22px;
+      }
+      form {
+        .form-group {
+          width: 50%;
+          .form-control {
+            margin-top: 5px;
+            height: calc(1.5em + .75rem + 2px);
+          }
+        }
+        .link {
+          margin-top: 10px;
+          a {
+            padding: 7px 20px;
+            font-size: 19px;
+          }
+        }
+      }
+    }
+    .product-details {
+      margin: 25px 0;
+      .des {
+        .title {
+          margin-top: 20px;
+          h2 {
+            font-size: 22px;
+          }
+        }
+      }
+      .detail-prd-slider .owl-carousel .owl-item img {
+        width: 50%;
+      }
+    }
+    .main-slider {
+      header {
+        &:hover {
+          .owl-prev {
+            left: 10px;
+            height: 35px;
+            width: 35px;
+            span {
+              top: -5px;
+              left: 13px;
+            }
+          }
+          .owl-next {
+            right: 10px;
+            height: 35px;
+            width: 35px;
+            span {
+              top: -5px;
+              right: 13px;
+            }
+          }
+        }
+      }
+    }
+    .home-video {
+      .video {
+        iframe {
+          height: 250px;
+        }
+      }
+    }
+    .about-incontinence {
+      margin-bottom: 30px;
+    }
+    .slider-bottom-text {
+      .des {
+        margin-top: -30px;
+        .title {
+          h3 {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      .bottom-header {
+        .menu {
+          .header-icons {
+            width: 10%;
+            span {
+              display: none;
+            }
+          }
+          #cssmenu {
+            // .open {
+            //   width: 100%;
+            //   max-width: 545px;
+            // }
+            #menu-button {
+              width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 435px) {
+    .slider-bottom-text .des {
+      margin-top: -24px;
+    }
+    header {
+      .bottom-header {
+        .menu {
+          .header-icons {
+            width: 13%;
+            span {
+              display: none;
+            }
+          }
+          #cssmenu {
+            // .open {
+            //   width: 100%;
+            //   max-width: 545px;
+            // }
+            #menu-button {
+              width: 39%;
+            }
+          }
+        }
+      }
+    }
+  }

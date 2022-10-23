@@ -1,0 +1,282 @@
+.slider-bottom-text {
+  .des {
+    background-color: $red;
+    padding: 10px 30px;
+    position: relative;
+    margin-top: -65px;
+    z-index: 999;
+    .title {
+      h3 {
+        font-size: 28px;
+        color: $white;
+      }
+    }
+    .text {
+      p {
+        color: $white;
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.products {
+  padding-top: 25px;
+  .prd {
+    border: 3px solid rgba($black, 0.1);
+    padding: 7px;
+    transition: all 0.5s;
+    .image {
+      background-color: rgba($black, 0.1);
+    }
+    .des {
+      .title {
+        padding-top: 30px;
+        h4 {
+          font-weight: bold;
+          color: rgba($blue, 1.0);
+          font-size: 21px;
+        }
+      }
+      .text {
+        p {
+          padding: 0 15px;
+          font-size: 18px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          /* number of lines to show */
+          -webkit-box-orient: vertical;
+          color: $text-clr;
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0 0 10px 2px rgba($black, 0.4);
+    }
+  }
+}
+
+.web-about {
+  margin-top: 30px;
+  .bg-image {
+    // height: 500px;
+    width: 100%;
+    position: relative;
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    ;
+    &:before {
+      content: '';
+      background-color: rgba($blue, 0.8);
+      position: absolute;
+      height: 100%;
+      width: 100%;
+    }
+    .des {
+      position: relative;
+      z-index: 999;
+      color: $white;
+      padding: 100px 0;
+      .title {
+        h3 {
+          font-size: 28px;
+          font-weight: bold;
+        }
+      }
+      .text {
+        padding-top: 10px;
+        p {
+          font-size: 16px;
+        }
+      }
+      .link {
+        margin-top: 50px;
+        a {
+          color: $white;
+          background-color: $red;
+          padding: 13px 25px;
+          border-radius: 5px;
+          font-size: 18px;
+          transition: all 0.6s;
+          &:hover {
+            background-color: $white;
+            // border: 1px solid $red;
+            color: $red;
+          }
+        }
+      }
+    }
+  }
+}
+
+.guide-incontinence {
+  margin-top: 50PX;
+  margin-bottom: 30px;
+  P {
+    color: $text-clr;
+  }
+  .details {
+    padding-bottom: 30px;
+    h2 {
+      font-size: 28px;
+      color: rgba($blue, 1.0);
+    }
+  }
+  .prd {
+    box-shadow: 0 0 20px 10px rgba($black, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.6s;
+    .image {
+      img {
+        width: 100%;
+      }
+    }
+    .des {
+      padding: 20px;
+      .title {
+        h4 {
+          font-size: 21px;
+          color: rgba($blue, 1.0);
+          font-weight: bold;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          /* number of lines to show */
+          -webkit-box-orient: vertical;
+        }
+      }
+      .text {
+        padding: 10px 0;
+        p {
+          font-size: 16px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          /* number of lines to show */
+          -webkit-box-orient: vertical;
+          color: $text-clr;
+        }
+      }
+      .link {
+        a {
+          color: $red;
+          box-shadow: 0 0 3px 1px rgba($black, 0.1);
+          padding: 8px 15px;
+          border-radius: 5px;
+          font-size: 18px;
+          // transition: all 0.6s;
+        }
+      }
+    }
+    &:hover {
+      box-shadow: 0 0 10px 2px rgba($black, 0.4);
+      .link {
+        a {
+          background-color: $red;
+          color: $white;
+          transition: all 0.9s;
+        }
+      }
+    }
+  }
+}
+
+.about-incontinence {
+  margin-bottom: 40px;
+  .about-incontinence-des {
+    padding: 25px;
+    background-color: $red;
+    border-radius: 10px;
+    .des {
+      color: $white;
+      h3 {
+        font-size: 21px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+    }
+    .link {
+      margin-top: 40px;
+      a {
+        background-color: rgba($blue, 1.0);
+        padding: 13px 25px;
+        color: $white;
+        border-radius: 5px;
+        transition: all 0.6s;
+        font-size: 18px;
+        &:hover {
+          background-color: $white;
+          // border: 1px solid $blue;
+          color: $blue;
+        }
+      }
+    }
+  }
+}
+
+.product-details {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: rgba($black, 0.1);
+  height: 260px;
+  .des {
+    .title {
+      margin-top: 45px;
+      h2 {
+        font-size: 28px;
+        color: rgba($blue, 1.0);
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+    .text {
+      margin-top: 20px;
+      p {
+        color: $text-clr;
+        font-size: 16px;
+      }
+    }
+    .link {
+      margin-top: 30px;
+      a {
+        color: $red;
+        background-color: $white;
+        box-shadow: 0 0 3px 1px rgba($black, 0.1);
+        padding: 8px 15px;
+        border-radius: 5px;
+        transition: all 0.6s;
+        font-size: 18px;
+        &:hover {
+          background-color: $red;
+          color: $white;
+        }
+      }
+    }
+  }
+  .detail-prd-slider {
+    margin-top: -40px;
+    .owl-carousel .owl-item img {
+      width: auto;
+    }
+  }
+  // .image {
+  //   margin-top: -45px;
+  //   img {
+  //     // width: 100%;
+  //     // height: 344px;
+  //   }
+  // }
+}

@@ -1,0 +1,90 @@
+.subscribe {
+  margin-top: 60px;
+  background-color: rgba($blue, 1.0);
+  h2 {
+    padding-top: 26px;
+    font-size: 27px;
+    color: $red;
+    font-weight: bold;
+  }
+  form {
+    .form-group {
+      width: 80%;
+      label {
+        display: inline;
+      }
+      .form-control {
+        margin-top: 15px;
+        height: calc(2.5em + .75rem + 2px);
+      }
+    }
+    .link {
+      margin-top: 26px;
+      margin-left: 10px;
+      a {
+        color: $white;
+        font-size: 21px;
+        background-color: $red;
+        padding: 14px 20px;
+        border-radius: 5px;
+        transition: all 0.6s;
+        &:hover {
+          background-color: $white;
+          color: $red;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgba($black, 0.8);
+  li {
+    display: flex;
+    a {
+      color: $white;
+      display: flex;
+      font-size: 18px;
+    }
+    list-style: none;
+    padding-bottom: 10px;
+    .fa {
+      color: $red;
+      padding: 2px 15px 0 0;
+    }
+  }
+  .logo-footer {
+    padding: 40px 0 30px;
+  }
+  .detail {
+    p {
+      color: $white;
+    }
+  }
+  .footer-links {
+    h3 {
+      font-size: 21px;
+      font-weight: bold;
+      color: $white;
+      padding: 40px 0 15px;
+    }
+  }
+  .line {
+    margin-top: 20px;
+    border-top: 2px solid rgba($white, 0.2);
+  }
+  .footer-bottom {
+    padding-top: 10px;
+    p {
+      color: $white;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .right {
+      text-align: right;
+      a {
+        color: $red;
+      }
+    }
+  }
+}

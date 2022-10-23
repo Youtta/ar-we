@@ -1,0 +1,112 @@
+.productDetailPage {
+  margin: 50px 0;
+  .productDetailTtile {
+    margin-top: 10px;
+    margin-left: 10px;
+    h4 {
+      color: rgba($blue, 0.5);
+      margin-bottom: 0;
+      font-size: 18px;
+    }
+    h1 {
+      color: rgba($red, 1.0);
+      font-size: 28px;
+    }
+    &.sectionTitle {
+      h4 {
+        margin-top: 15px;
+        color: rgba($blue, 1.0);
+      }
+    }
+  }
+  .productDetailFeatures {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .feature {
+      width: 100%;
+      display: block;
+      border: 1px solid rgba($black, 0.05);
+      border-radius: 10px;
+      box-shadow: 0px 0px 1px rgba($blue, 0.0) inset;
+      margin: 10px;
+      padding: 10px;
+      img {
+        margin-bottom: 10px;
+      }
+      h6 {
+        font-weight: 400;
+        color: $red;
+        font-size: 12px;
+      }
+    }
+  }
+  .detailsIcon {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .productDetailSize {
+      width: 100%;
+      text-align: center;
+      display: block;
+      // box-shadow: 0px 0px 10px rgba($red, 0.1);
+      // margin: 10px;
+      // border-radius: 10px;
+      // padding: 10px;
+      a {
+        display: block;
+        box-shadow: 0px 0px 10px rgba($red, 0.1);
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        .sizesStyle {
+          background-repeat: no-repeat;
+          background-position: center;
+          text-align: center;
+          color: $white;
+          display: flex;
+          height: 100px;
+          justify-content: center;
+          align-items: center;
+          transition: 0.3s all ease-in-out;
+          .productDetailIcon {
+            margin-top: -5px;
+            .dimensionText {
+              font-weight: 600;
+              margin-bottom: 0;
+            }
+            .size {
+              font-weight: 800;
+              font-size: 24px;
+              line-height: 19px;
+            }
+          }
+        }
+        .sizeMension {
+          small {
+            color: $blue;
+          }
+          h6 {
+            color: $red;
+          }
+        }
+        &:hover {
+          .sizesStyle {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+  .productDetailFeaturesImages {
+    margin: 50px 0;
+    text-align: center;
+    .featureImage {
+      box-shadow: 10px 10px 20px rgba($black, 0.05);
+      img {
+        width: 100%;
+        max-width: 80%;
+      }
+    }
+  }
+}
